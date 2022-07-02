@@ -10,6 +10,7 @@
 
 -- Path of the configuration
 conf_path = "/etc/ssowat/conf.json"
+user_path = "/etc/ssowat/user.json"
 log_file = "/var/log/nginx/ssowat.log"
 
 -- Remove prepending '@' & trailing 'init.lua'

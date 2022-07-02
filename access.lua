@@ -20,6 +20,9 @@ end
 local hlp = require "helpers"
 
 -- Initialize and get configuration
+-- Thought: Split into two configuration file, global and user
+-- User could either be a single file with each users configuration
+-- or a file for each user
 hlp.refresh_config()
 local conf = hlp.get_config()
 
